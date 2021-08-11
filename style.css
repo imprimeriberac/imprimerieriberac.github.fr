@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     scroll-behavior: smooth;
@@ -186,20 +187,22 @@ ul li {
 }
 
 #horaire {
-    font-family: Lobster;
+    font-family: 'Bebas Neue', cursive;
     font-size: 2rem;
     color: #444340;
     text-align: right;
     margin: auto;
-    
+    letter-spacing: 2px;
+
 }
 
 .adresse {
-    font-family: Ubuntu;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
-
+    letter-spacing: 2px;
     font-size: 1.7rem;
     font-weight: 400;
+    
 }
 
 
