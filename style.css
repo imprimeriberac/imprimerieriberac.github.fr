@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:wght@300&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    height:100%;
+}
+   
+   
+#container {
+    width: 1024px;
+    min-height: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+
+/* **************************** HEADER ************************** */
+
+#logo {
+    width: 50%;
+    height: 250px;
+    display: block;
+    margin: auto;
+    padding-top: 60px;
+}
+
+#titre1 {
+    text-align: center;
+    font-family: Lobster;
+    color: #444444;
+    font-size: 2.5rem;
+}
+
+#titre2 {
+    text-align: center;
+    font-family: Ubuntu;
+    color: #A8A6A1;
+    font-size: 2rem;
+}
+
+/* *********************************** NAVBAR ****************************** */
+
+nav {
+    overflow: hidden;
+    background: linear-gradient(to right, #212121 0%, #333333 50%, #212121 100%);
+    width: 100%;
+    opacity: 0.9;
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 8px 18px;
+    font-family: Ubuntu;
+    font-size: 1.2rem;
+    font-weight: bold;
+    overflow: hidden;
+    float: none;
+    vertical-align: top;
+}
+
+#triangle {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+}
+    
+/* *********************************** ACCUEIL ************************************ */
+
+#accueil {
+    font-family: Lobster;
+    font-size: 3rem;
+    margin-left: 50px;
+    color: #444444
+}
+
+#titre3 {
+    font-family: Ubuntu;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #444340;
+}
+
+
+#images {
+    width: 320px;
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.imageaccueil {
+    padding: 0 5%;
+}
+
+.line {
+    border-top: 1px solid #444340;
+    width : 80%;
+    margin: 30px auto;
+}
+
+#colonne1 {
+    float: left;
+    width: 265px;
+    padding: 0 3%;
+} 
+
+#colonne2 {
+    width: 265px;
+    padding: 0 3%;
+} 
+
+#colonne3 {
+    float: right;
+    width: 265px;
+    padding: 0 3%;
+} 
+
+#textes {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titrecolonne {
+    font-family: Lobster;
+    font-size: 2rem;
+    color: #444340;
+}
+
+.textecolonne {
+    font-family: Ubuntu;
+    font-size: 1.2rem;
+}
+
+#icones {
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconesaccueil {
+    padding: 0 2%;
+
+}
+
+/* ****************************** CONTACT ************************* */
+
+#contact {
+    display: block;
+    margin: auto;
+}
+
+#contacteznous {
+    font-family: Lobster;
+    font-size: 2.5rem;
+    color: #444340;
+    text-align: center;
+}
+
+
+
+#carte {
+   text-align: center;
+}
+
+#horaire {
+    font-family: Lobster;
+    font-size: 2rem;
+    color: #444340;
+    text-align: right;
+    margin: auto;
+    
+}
+
+.adresse {
+    font-family: Ubuntu;
+    text-align: center;
+
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+
+.copyright {
+    text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: linear-gradient(to right, #212121 0%, #333333 50%, #212121 100%);
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+    font-family: Ubuntu;
+}
+
