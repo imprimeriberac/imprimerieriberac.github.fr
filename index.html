@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <link rel="shortcut icon" href="media/rond4.jpg">
   <link href="./style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/swiper.min.css">
 </head>
     
 <body>
@@ -21,11 +22,12 @@
       <h1 id="titre1">Votre imprimerie à Ribérac</h1>
       <h2 id="titre2">- IMPRIMERIE ET CONCEPTION GRAPHIQUE -</h2>
     
-      <nav>
+      <nav id="menu_principal" class="menu_principal1" class="menu_principal2">
         <ul>
           <li><a href="#accueil">ACCUEIL</a></li>
           <li><a href="#carte">CONTACT</a></li>
-          <li><a href="#">NOS TRAVAUX</a></li>
+          <li><a href="#galleries">GALLERIES</a></li>
+          <li><a href="nostravaux.html#nostravaux">NOS TRAVAUX</a></li>
         </ul>
       </nav>
     </header>
@@ -34,13 +36,13 @@
     <img src="media/triangles.jpg" alt="Triangles" title="Triangles">
     </div>
 
-    <div >
+    <div>
     <h2 id="accueil">Accueil</h2>
     </div>
 
 
     <div id="images">
-      <img class="imageaccueil" src="media/printing-787192_1920.jpg" alt="Printing" title="Printing">
+      <img class="imageaccueil" src="/media/printing-787192_1920.jpg" alt="Printing" title="Printing">
       <img class="imageaccueil" src="media/alphabets-1839737_1920-1.jpg" alt="Alphabet" title="Alphabet">
       <img class="imageaccueil" src="media/roland.jpg" alt="Roland" title="Roland">
     </div>
@@ -72,6 +74,31 @@
     </div>
 
     <div class="line"></div>
+    
+      <div>
+        <h2 id="galleries">Galleries</h2>
+      </div>
+    
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+        
+            <div class="swiper-slide"><img src="media/Galleries/Affiche Panneau Sucette Roland.jpg" alt="Affiche Panneau Sucette" Title="Affiche Panneau Sucette"></div>
+            <div class="swiper-slide"><img src="media/Galleries/Banderole Tissu.jpg" alt="Banderole Tissu" Title="Banderole Tissu"></div>
+            <div class="swiper-slide"><img src="media/Galleries/Modèle tampon encreur.jpg" alt="Modèle tampon encreur" Title="Modèle tampon encreur"></div>
+            <div class="swiper-slide"><img src="media/Galleries/Roll-Up.jpg" alt="Roll-Up" Title="Roll-Up"></div>
+            <div class="swiper-slide"><img src="/media/Galleries/Banderol 1.jpeg" alt="Banderole 1" Title="Banderole 1"></div>
+            <div class="swiper-slide"><img src="media/Galleries/Adhesif Vehicule Jayat.jpg" alt="Adhesif Vehicule" Title="Adhesif Vehicule"></div>
+            <div class="swiper-slide"><img src="media/Galleries/plume-beachflag-eco-S.jpg" alt="plume-beachflag-eco-S" title="drapeau"></div>
+            <div class="swiper-slide"><img src="media/Galleries/chevalet (1).jpg" alt="chevalet" title="chevalet"></div>
+            <div class="swiper-slide"><img src="media/Galleries/drapeaususpendu.jpg" alt="drapeaususpendu" title="drapeaususpendu"></div>
+            <div class="swiper-slide"><img src="media/Galleries/visuelsuspendu.jpg" alt="visuelsuspendu" title="visuelsuspendu"></div>
+        
+        </div>
+      
+        <div class="swiper-pagination"></div>
+      </div>
+
+    <div class="line"></div>
 
     <img id="contact" src="media/contactez-nous.jpg" alt="contact" title="contact">
     <h3 id=contacteznous>contactez-nous</h3>
@@ -93,7 +120,30 @@
   
   <script src="./assets/jquery.min.js" type="text/javascript" ></script>
   <script src="./assets/bootstrap.js" type="text/javascript" ></script>
-  <script src="./script.js" type="text/javascript" ></script>
+  <!-- <script src="./script.js" type="text/javascript" ></script> -->
+  <script src="swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+  },
+  autoplay: {
+    delay: 5000,
+  }
+});
+  </script>
+  <script src="main.js" type="text/javascript"> </script>
 </body>
 </html>
 
