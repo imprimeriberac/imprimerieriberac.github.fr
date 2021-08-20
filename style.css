@@ -53,9 +53,28 @@ html {
     font-family: Ubuntu;
     color: #A8A6A1;
     font-size: 2rem;
+    margin-bottom: 69px;
+    padding-bottom: 20px;
 }
 
 /* *********************************** NAVBAR ****************************** */
+
+.menu_principal1 {  
+    position: absolute;  
+    top: 420px;  
+    margin: auto;
+    height: 70px;  
+    width: 55%;  
+    z-index: 10;
+}  
+.menu_principal2 {  
+    position: fixed;  
+    top: 0;  
+    margin: auto;  
+    height: 70px;  
+    width: 55%;  
+    z-index: 10;
+}
 
 nav {
     overflow: hidden;
@@ -114,6 +133,8 @@ ul li {
 
 .imageaccueil {
     padding: 0 5%;
+    width: 320px;
+    height: 205px;
 }
 
 .line {
@@ -166,6 +187,29 @@ ul li {
 
 }
 
+/* ***************************** GALLERIES ****************************** */
+
+#galleries {
+    font-family: Lobster;
+    font-size: 3rem;
+    margin-left: 50px;
+    color: #444444
+}
+
+.swiper-container {
+    width: 100%;
+    margin : 50px auto;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    max-width: 300px;
+    max-height: 300px;
+
+  }
+
+
 /* ****************************** CONTACT ************************* */
 
 #contact {
@@ -180,7 +224,7 @@ ul li {
     text-align: center;
 }
 
-
+/* *********************************** FOOTER ***************************** */
 
 #carte {
    text-align: center;
@@ -205,6 +249,7 @@ ul li {
     
 }
 
+/* ******************************* COPYRIGHT ************************* */
 
 .copyright {
     text-align: center;
@@ -219,3 +264,39 @@ ul li {
     font-family: Ubuntu;
 }
 
+/* ********************************** NOS TRAVAUX *********************************** */
+
+.entry-content {
+    margin: 0 0 1.6em;
+    display: flex;
+    font-family: "Ubuntu";
+}
+
+.block-image {
+    width: 230px;
+    height: 205px;
+    padding: 16px 49px;
+    justify-content: space-between;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.normal-font-size {
+    font-size: 1.3rem;
+    padding: 2px 49px;
+}
+
+.small-font-size {
+    font-size: 1.1rem;
+    padding: 16px 49px;
+    letter-spacing: 1.1px;
+}
+
+#nostravaux {
+    font-family: Lobster;
+    font-size: 3rem;
+    margin-left: 90px;
+    color: #444444
+}
